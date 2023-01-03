@@ -8,6 +8,18 @@ import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
 
 
+
+/**
+
+This Java code defines a class called AESEncryptionUtility that provides various methods for generating secure random numbers,
+and for encrypting and decrypting messages using the Advanced Encryption Standard (AES) algorithm. The generateSecureRandom
+method generates a random number using the SecureRandom class, while the encryptAES and decryptAES methods respectively
+encrypt and decrypt a given message using the provided key. The main method of the class prompts the user for a message and key,
+and then demonstrates the use of these methods by encrypting the message with the key, decrypting the encrypted message with
+the same key, and printing all three values to the console.
+*/
+
+
 public class AESEncryptionUtility {
 
     // Generate a secure random number
